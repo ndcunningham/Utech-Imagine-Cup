@@ -1,0 +1,90 @@
+<asp:WebPartZone 
+    runat="server"                      BorderColor="#CCCCCC"
+    Font-Names="Verdana"                Padding="6">
+    <PartStyle                          
+        ForeColor="#333333" />
+    <PartTitleStyle 
+        BackColor="#5D7B9D"             Font-Bold="True" 
+        ForeColor="White" />
+    <PartChromeStyle 
+        BackColor="#F7F6F3"             BorderColor="#E2DED6" 
+        Font-Names="Verdana"            ForeColor="White" />
+    <HeaderStyle 
+        ForeColor="#333333"             HorizontalAlign="Center" />
+    <MenuLabelStyle                     ForeColor="White" />
+    <MenuLabelHoverStyle                ForeColor="#E2DED6" />
+    <MenuVerbStyle 
+        BorderColor="#5D7B9D"           BorderStyle="Solid" 
+        BorderWidth="1px"               ForeColor="White" />
+    <MenuVerbHoverStyle 
+        BackColor="#F7F6F3"             BorderColor="#CCCCCC" 
+        BorderStyle="Solid"             BorderWidth="1px" 
+        ForeColor="#333333" />
+    <MenuPopupStyle 
+        BackColor="#5D7B9D"             BorderColor="#CCCCCC" 
+        BorderWidth="1px"/>
+</asp:WebPartZone>
+
+<asp:CatalogZone runat="server"         BackColor="#F7F6F3" 
+    BorderColor="#CCCCCC"               BorderWidth="1px" 
+    Font-Names="Verdana"                Padding="6">
+    <HeaderCloseVerb Visible="False" />
+    <CloseVerb Visible="False" />
+    <HeaderVerbStyle 
+        Font-Bold="False"               Font-Underline="False" 
+        ForeColor="#333333" />
+    <PartTitleStyle 
+        BackColor="#5D7B9D"             Font-Bold="True" 
+        ForeColor="White" />
+    <FooterStyle 
+        BackColor="#E2DED6"             HorizontalAlign="Right" />
+    <PartChromeStyle 
+        BorderColor="#E2DED6"           BorderStyle="Solid" 
+        BorderWidth="1px" />
+    <InstructionTextStyle 
+        ForeColor="#333333" />
+    <LabelStyle 
+        ForeColor="#333333" />
+    <VerbStyle 
+        Font-Names="Verdana"            ForeColor="#333333" />
+    <HeaderStyle 
+        BackColor="#E2DED6"             Font-Bold="True" 
+        ForeColor="#333333" />
+    <EmptyZoneTextStyle 
+        ForeColor="#333333" />
+    <EditUIStyle 
+        Font-Names="Verdana"            ForeColor="#333333" />
+    <PartStyle 
+        BorderColor="#F7F6F3"           BorderWidth="5px" />
+</asp:CatalogZone>
+
+<asp:EditorZone 
+    runat="server"                      BackColor="#F7F6F3" 
+    BorderColor="#CCCCCC"               BorderWidth="1px" 
+    Font-Names="Verdana"                Padding="6">
+    <LabelStyle 
+        ForeColor="#333333" />
+    <HeaderStyle 
+        BackColor="#E2DED6"             Font-Bold="True" 
+        ForeColor="#333333" />
+    <HeaderVerbStyle 
+        Font-Bold="False"               Font-Underline="False" 
+        ForeColor="#333333" />
+    <PartChromeStyle 
+        BorderColor="#E2DED6"           BorderStyle="Solid" 
+        BorderWidth="1px" />
+    <PartStyle 
+        BorderColor="#F7F6F3"           BorderWidth="5px" />
+    <FooterStyle 
+        BackColor="#E2DED6"             HorizontalAlign="Right" />
+    <EditUIStyle 
+        Font-Names="Verdana"            ForeColor="#333333" />
+    <InstructionTextStyle 
+        ForeColor="#333333" />
+    <VerbStyle 
+        Font-Names="Verdana"            ForeColor="#333333" />
+    <EmptyZoneTextStyle
+        ForeColor="#333333" />
+    <PartTitleStyle 
+        Font-Bold="True"                ForeColor="#333333" />
+</asp:EditorZone>

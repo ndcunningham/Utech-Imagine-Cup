@@ -1,0 +1,54 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Master Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:Image ID="Image" runat="server" ImageUrl="~/Images/banner.jpg" /><br />
+    <table cellpadding="0" cellspacing="0">
+      <tr >
+        <td style="width: 153px; height: 400; background-color: Red;
+            border-color: Red" valign="top" rowspan="2">
+            <asp:Menu ID="Menu1" runat="server" 
+                DataSourceID="SiteMapDataSource1" BackColor="#E3EAEB" 
+                DynamicHorizontalOffset="2" Font-Names="Verdana" 
+                Font-Size="0.8em" ForeColor="#666666" StaticSubMenuIndent="10px" >
+                <StaticSelectedStyle BackColor="#1C5E55" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicHoverStyle BackColor="#666666" Font-Bold="False" ForeColor="White" />
+                <DynamicMenuStyle BackColor="#E3EAEB" />
+                <DynamicSelectedStyle BackColor="#1C5E55" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticHoverStyle BackColor="#666666" Font-Bold="False" ForeColor="White" />
+                <DataBindings>
+                    <asp:MenuItemBinding />
+                </DataBindings>
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" ShowStartingNode="False" runat="server" />
+        </td>
+        <td style="width: 10px"></td>
+        <td style="width: 704px" valign="top">
+            <asp:SiteMapPath id="SiteMapPath1" runat="server"></asp:SiteMapPath>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 10px"></td>
+        <td style="width: 704px" valign="top">
+            <asp:contentplaceholder id="Main" runat="server"></asp:contentplaceholder>
+        </td>
+      </tr>
+      <tr style="height: 25">
+        <td style="width: 153px; background-color: Red; border-color:Red" valign="top"></td>
+        <td style="width: 10px"></td>
+        <td style="width: 704px" valign="top">
+            <asp:Label ID="lblMessage" runat="server"></asp:Label>
+        </td>
+      </tr>
+    </table>
+    </form>
+</body>
+</html>
