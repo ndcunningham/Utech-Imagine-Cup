@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\Ch24HalloweenStore\", ".", "{2D662F6A-E2F2-41D7-9AD0-A59677CB01E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Ch24HalloweenStore"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch24HalloweenStore\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch24HalloweenStore\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Ch24HalloweenStore"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch24HalloweenStore\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch24HalloweenStore\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2315"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D662F6A-E2F2-41D7-9AD0-A59677CB01E6}.Debug|.NET.ActiveCfg = Debug|.NET
+		{2D662F6A-E2F2-41D7-9AD0-A59677CB01E6}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

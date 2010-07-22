@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\Ch21Email\", ".", "{245375BE-B4A3-4956-8441-FED569A5B20F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Ch21Email"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch21Email\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch21Email\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Ch21Email"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch21Email\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch21Email\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2010"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{245375BE-B4A3-4956-8441-FED569A5B20F}.Debug|.NET.ActiveCfg = Debug|.NET
+		{245375BE-B4A3-4956-8441-FED569A5B20F}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="DaysUntilDates" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>App_Code\DaysUntilDates.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAAAAAAgAAAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

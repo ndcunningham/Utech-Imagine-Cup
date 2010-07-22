@@ -1,0 +1,66 @@
+BODY {
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11pt;
+    LINE-HEIGHT: 110%;
+    COLOR : #585880;
+}
+
+A:link {
+    COLOR: #232377;
+}
+
+A:unknown {
+    COLOR: #232377;
+}
+
+A:hover {
+    COLOR: #6464FE;
+    text-decoration:none;
+}
+
+A:visited{
+    COLOR: #232377;
+}
+
+H1 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    COLOR: #585880;
+    margin-top: 3px;
+}
+
+H2 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    COLOR: #585880;
+}
+
+H3 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    COLOR: #585880;
+}
+
+H4 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    COLOR: #585880;
+}
+
+H5 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    COLOR: #585880;
+}
+
+H6 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    COLOR: #585880;
+}
+
+.theme_header {
+    background-image :url(images/smokeandglass_brownfadetop.gif);
+}
+
+.theme_highlighted {
+    background-image :url(images/smokeandglass_blueandwhitef.gif);
+}
+
+.theme_fadeblue {
+    background-image :url(images/smokeandglass_fadeblue.gif);
+}

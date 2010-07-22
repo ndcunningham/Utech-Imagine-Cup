@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\Ch19CartProfile\", ".", "{F47F133F-B8DC-4C3D-BF7C-E4F197359D0F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Ch19CartProfile"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch19CartProfile\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch19CartProfile\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Ch19CartProfile"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch19CartProfile\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch19CartProfile\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4230"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F47F133F-B8DC-4C3D-BF7C-E4F197359D0F}.Debug|.NET.ActiveCfg = Debug|.NET
+		{F47F133F-B8DC-4C3D-BF7C-E4F197359D0F}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

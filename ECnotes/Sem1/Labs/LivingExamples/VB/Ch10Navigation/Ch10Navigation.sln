@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\Ch10Navigation\", ".", "{7FFB44AA-6C54-4448-A733-CC8226D9D622}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Ch10Navigation"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem1\Examples\VB2005\Ch10Navigation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch10Navigation\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Ch10Navigation"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem1\Examples\VB2005\Ch10Navigation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch10Navigation\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2204"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FFB44AA-6C54-4448-A733-CC8226D9D622}.Debug|.NET.ActiveCfg = Debug|.NET
+		{7FFB44AA-6C54-4448-A733-CC8226D9D622}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

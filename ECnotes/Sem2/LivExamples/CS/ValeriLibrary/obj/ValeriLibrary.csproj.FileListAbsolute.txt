@@ -1,0 +1,8 @@
+C:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\bin\Debug\ValeriLibrary.dll
+C:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\bin\Debug\ValeriLibrary.pdb
+C:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\obj\Debug\ValeriLibrary.dll
+C:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\obj\Debug\ValeriLibrary.pdb
+c:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\obj\Debug\ValeriLibrary.CaptionedBox.bmp
+c:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\obj\Debug\ValeriLibrary.DateDDL.bmp
+c:\Utech\EC\Year2009-2010\Sem2\LivEx\Valeri\ValeriLibrary\obj\Debug\ValeriLibrary.DaysUntil.bmp

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+				  xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" 
+				  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+				  xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" 
+				  xmlns:tns="http://www.utech.edu.jm/" 
+				  xmlns:s="http://www.w3.org/2001/XMLSchema" 
+				  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
+				  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" 
+				  targetNamespace="http://www.utech.edu.jm/" 
+				  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation 
+	  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Calculates the number of days until a given date.
+  </wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.utech.edu.jm/">
+      <s:element name="DaysUntil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="date" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaysUntilResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DaysUntilResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaysUntilHalloween">
+        <s:complexType />
+      </s:element>
+      <s:element name="DaysUntilHalloweenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DaysUntilHalloweenResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DaysUntilChristmas">
+        <s:complexType />
+      </s:element>
+      <s:element name="DaysUntilChristmasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DaysUntilChristmasResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DaysUntilSoapIn">
+    <wsdl:part name="parameters" element="tns:DaysUntil" />
+  </wsdl:message>
+  <wsdl:message name="DaysUntilSoapOut">
+    <wsdl:part name="parameters" element="tns:DaysUntilResponse" />
+  </wsdl:message>
+  <wsdl:message name="DaysUntilHalloweenSoapIn">
+    <wsdl:part name="parameters" element="tns:DaysUntilHalloween" />
+  </wsdl:message>
+  <wsdl:message name="DaysUntilHalloweenSoapOut">
+    <wsdl:part name="parameters" element="tns:DaysUntilHalloweenResponse" />
+  </wsdl:message>
+  <wsdl:message name="DaysUntilChristmasSoapIn">
+    <wsdl:part name="parameters" element="tns:DaysUntilChristmas" />
+  </wsdl:message>
+  <wsdl:message name="DaysUntilChristmasSoapOut">
+    <wsdl:part name="parameters" element="tns:DaysUntilChristmasResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DaysUntilDatesSoap">
+    <wsdl:operation name="DaysUntil">
+      <wsdl:input message="tns:DaysUntilSoapIn" />
+      <wsdl:output message="tns:DaysUntilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DaysUntilHalloween">
+      <wsdl:input message="tns:DaysUntilHalloweenSoapIn" />
+      <wsdl:output message="tns:DaysUntilHalloweenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DaysUntilChristmas">
+      <wsdl:input message="tns:DaysUntilChristmasSoapIn" />
+      <wsdl:output message="tns:DaysUntilChristmasSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DaysUntilDatesSoap" type="tns:DaysUntilDatesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DaysUntil">
+      <soap:operation soapAction="http://www.utech.edu.jm/DaysUntil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaysUntilHalloween">
+      <soap:operation soapAction="http://www.utech.edu.jm/DaysUntilHalloween" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaysUntilChristmas">
+      <soap:operation soapAction="http://www.utech.edu.jm/DaysUntilChristmas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DaysUntilDatesSoap12" type="tns:DaysUntilDatesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DaysUntil">
+      <soap12:operation soapAction="http://www.utech.edu.jm/DaysUntil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaysUntilHalloween">
+      <soap12:operation soapAction="http://www.utech.edu.jm/DaysUntilHalloween" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DaysUntilChristmas">
+      <soap12:operation soapAction="http://www.utech.edu.jm/DaysUntilChristmas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DaysUntilDates">
+    <wsdl:documentation 
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Calculates the number of days until a given date.
+	</wsdl:documentation>
+    <wsdl:port name="DaysUntilDatesSoap" binding="tns:DaysUntilDatesSoap">
+      <soap:address location="http://localhost:1196/DaysUnitlDates/DaysUntilDates.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DaysUntilDatesSoap12" binding="tns:DaysUntilDatesSoap12">
+      <soap12:address location="http://localhost:1196/DaysUnitlDates/DaysUntilDates.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

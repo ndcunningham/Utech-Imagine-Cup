@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home"  
+    description="Home page." roles="">
+    <siteMapNode url="Shopping.aspx" title="Shopping"  
+      description="Shop for your favorite products." roles="">
+      <siteMapNode url="Order.aspx" title="Order Products"
+        description="Order a product." roles="">
+      </siteMapNode>
+      <siteMapNode url="Cart.aspx" title="Shopping Cart"
+        description="View your shopping cart." roles="">
+      </siteMapNode>
+      <siteMapNode url="Checkout1.aspx" title="Check Out"  
+        description="Finalize your purchase." roles="">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="Projects.aspx" title="Projects"  
+      description="Do-it-yourself Halloween projects." roles="">
+      <siteMapNode url="Costumes.aspx" title="Costumes"  
+        description="Costume projects." roles="">
+      </siteMapNode>
+      <siteMapNode url="StaticProps.aspx" title="Static Props"  
+        description="Static props." roles="">
+      </siteMapNode>
+      <siteMapNode url="AnimatedProps.aspx" title="Animated Props"  
+        description="Animated props." roles="">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="Service.aspx" title="Service and Support"  
+      description="Customer service and product support." roles="">
+      <siteMapNode url="CustService.aspx" title="Customer Service"  
+        description="Customer service." roles="">
+      </siteMapNode>
+      <siteMapNode url="Support.aspx" title="Product Support"  
+        description="Product support." roles="">
+      </siteMapNode>
+      <siteMapNode url="Map.aspx" title="Site Map"  
+        description="A map of all the pages on this web site." roles="">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="About.aspx" title="About Us"  
+      description="All about our company." roles="">
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "c:\...\Ch25HalloweenStore\", ".", "{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Ch25HalloweenStore"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch25HalloweenStore\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch25HalloweenStore\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Ch25HalloweenStore"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\UTech\Courses\EC\Year2009-2010\Sem2\Examples\CS\Ch25HalloweenStore\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Ch25HalloweenStore\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2734"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Debug|.NET.Build.0 = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Release|.NET.ActiveCfg = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Release|.NET.Build.0 = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{CD8DB4B8-12E5-49C4-A9B4-F646526BA40A}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
